@@ -47,6 +47,7 @@ form input {
   outline: none;
   border-bottom: 1px solid #e4e4e4;
   border-radius: 10px;
+  display: none;
 
   background-color: #222222;
 }
@@ -92,4 +93,29 @@ button i {
 }
 button i .fa {
   font-size: 2rem;
+}
+/* at maximum with of 900px */
+
+@media screen and (max-width: 900px) {
+  nav {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    align-items: center;
+  }
+  nav ul li {
+    margin: 20px 0 20px 0;
+  }
+  form input {
+    display: none;
+  }
 }
