@@ -39,3 +39,14 @@ nav ul li a {
 .logo:hover {
   color: #e4e4e4;
 }
+form input {
+  border: none;
+  border-bottom: 1px solid #e4e4e4;
+  border-radius: 10px;
+
+  background-color: #044343;
+}
+form input:focus {
+  outline: none;
+  background-color: #044343;
+}

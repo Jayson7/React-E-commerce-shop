@@ -35,7 +35,7 @@ export class Navbar extends Component {
               <a href="#"> Contact </a>
             </li>
           </ul>
-          <form action="#" method="POST">
+          <form action="#" method="POST" autoComplete="off">
             <label htmlFor="search"> </label>
             <input type="text" name="search" id="search" />
             <button>
