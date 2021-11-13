@@ -8,7 +8,7 @@ nav {
   padding: 0;
   width: 100%;
   height: 60px;
-  background-color: #044343;
+  /* background-color: #044343; */
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -48,11 +48,13 @@ form input {
   border-bottom: 1px solid #e4e4e4;
   border-radius: 10px;
 
-  background-color: #044343;
+  background-color: #222222;
 }
 form input:focus {
   outline: none;
-  background-color: #044343;
+  background-color: #222222;
+  text-align: center;
+  color: #e4e4e4;
 }
 li .ol {
   margin: 10px 0 0px -30px;
