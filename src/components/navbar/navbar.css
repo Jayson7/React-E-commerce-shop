@@ -42,21 +42,6 @@ nav ul li a {
 .logo:hover {
   color: #e4e4e4;
 }
-form input {
-  border: none;
-  outline: none;
-  border-bottom: 1px solid #e4e4e4;
-  border-radius: 10px;
-  display: none;
-
-  background-color: #222222;
-}
-form input:focus {
-  outline: none;
-  background-color: #222222;
-  text-align: center;
-  color: #e4e4e4;
-}
 li .ol {
   margin: 10px 0 0px -30px;
   background: #045757;
@@ -78,27 +63,25 @@ li .ol li {
 li .ol li a {
   color: #222222;
 }
-active-ol {
+.icons {
   display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
-form button {
-  margin-left: 10px;
-  border: none;
-  /* padding: 10px; */
-  background: #e4e4e4;
-}
-button i {
+.icons i {
+  margin: 0 5px 0 5px;
+  font-size: 1.1rem;
   font-weight: 900;
-  color: #045757;
+  color: #044343;
+  background: #e4e4e4;
+  padding: 3px 5px 3px 5px;
+  border-radius: 2px;
 }
-button i .fa {
-  font-size: 2rem;
-}
-/* at maximum with of 900px */
 
 @media screen and (max-width: 900px) {
   nav {
-    width: 100vw;
+    width: -100vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -106,6 +89,8 @@ button i .fa {
     justify-content: space-around;
   }
   nav ul {
+    /* width: 100vw; */
+    margin-left: -15px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -114,8 +99,5 @@ button i .fa {
   }
   nav ul li {
     margin: 20px 0 20px 0;
-  }
-  form input {
-    display: none;
   }
 }

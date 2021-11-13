@@ -39,13 +39,17 @@ export class Navbar extends Component {
               </ol>
             </li>
           </ul>
-          <form action="#" method="POST" autoComplete="off">
-            <label htmlFor="search"> </label>
-            <input type="text" name="search" id="search" />
-            <button>
-              <i className="fa fa-search" aria-hidden="true"></i>
-            </button>
-          </form>
+
+          <div className="icons">
+            <i className="fa fa-search" aria-hidden="true"></i>
+            <i className="fa fa-facebook" aria-hidden="true"></i>
+            <i className="fa fa-twitter" aria-hidden="true"></i>
+            <i className="fa fa-github" aria-hidden="true"></i>
+            <i className="fa fa-instagram" aria-hidden="true"></i>
+          </div>
+          <div className="times">
+            <i class="fa fa-times" aria-hidden="true"></i>
+          </div>
         </nav>
       </div>
     );
