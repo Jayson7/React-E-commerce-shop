@@ -7,7 +7,6 @@ export class Navbar extends Component {
   render() {
     return (
       <div>
-        <div className="topper"></div>
         <nav>
           <div className="logo">E-Commerce</div>
           <ul>
@@ -49,11 +48,11 @@ export class Navbar extends Component {
             <i className="fa fa-instagram" aria-hidden="true"></i>
           </div>
           <div className="times">
-            <i class="fa fa-times" aria-hidden="true"></i>
+            <i className="fa fa-times" aria-hidden="true"></i>
           </div>
         </nav>
         <div className="toggle">
-          <i class="fa fa-bars" aria-hidden="true"></i>
+          <i className="fa fa-bars" aria-hidden="true"></i>
         </div>
       </div>
     );
