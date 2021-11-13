@@ -78,6 +78,9 @@ li .ol li a {
   padding: 3px 5px 3px 5px;
   border-radius: 2px;
 }
+.times {
+  display: none;
+}
 
 @media screen and (max-width: 900px) {
   nav {
@@ -99,5 +102,8 @@ li .ol li a {
   }
   nav ul li {
     margin: 20px 0 20px 0;
+  }
+  .times {
+    display: flex;
   }
 }
