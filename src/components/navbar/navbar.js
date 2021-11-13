@@ -7,6 +7,7 @@ export class Navbar extends Component {
   render() {
     return (
       <div>
+        <div className="topper"></div>
         <nav>
           <div className="logo">E-Commerce</div>
           <ul>
