@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./navbar.css";
 // import "@fortawesome/react-fontawesome";
+import "font-awesome/css/font-awesome.min.css";
 
 export class Navbar extends Component {
   render() {
@@ -37,7 +38,9 @@ export class Navbar extends Component {
           <form action="#" method="POST">
             <label htmlFor="search"> </label>
             <input type="text" name="search" id="search" />
-            <button></button>
+            <button>
+              <i className="fa fa-search" aria-hidden="true"></i>
+            </button>
           </form>
         </nav>
       </div>
