@@ -2,10 +2,12 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import Navbar from "./components/navbar/navbar";
+import Home from "./components/homepage/home";
 
 ReactDOM.render(
   <React.StrictMode>
     <Navbar />
+    <Home />
   </React.StrictMode>,
   document.getElementById("root")
 );

@@ -1,0 +1,15 @@
+.home-container {
+  display: flex;
+  flex: row;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* background: #044343; */
+}
+.loader {
+  width: 100vw;
+  height: 100vh;
+  
+}
+
