@@ -19,20 +19,24 @@ export class Navbar extends Component {
             <li>
               <a href="#"> Cart </a>
             </li>
-            <li>
-              <a href="#"> Track Order </a>
-            </li>
+
             <li>
               <a href="#"> Fast Sale </a>
             </li>
-            <li>
-              <a href="#"> Pre-Order </a>
-            </li>
+
             <li>
               <a href="#">Profile </a>
             </li>
             <li>
-              <a href="#"> Contact </a>
+              Help
+              <ol className="ol">
+                <li>
+                  <a href="#"> Track Order</a>
+                </li>
+                <li>
+                  <a href="#"> Pre Order</a>
+                </li>
+              </ol>
             </li>
           </ul>
           <form action="#" method="POST" autoComplete="off">
