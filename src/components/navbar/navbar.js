@@ -1,0 +1,48 @@
+import React, { Component } from "react";
+import "./navbar.css";
+// import "@fortawesome/react-fontawesome";
+
+export class Navbar extends Component {
+  render() {
+    return (
+      <div>
+        <nav>
+          <div className="logo">E-Commerce</div>
+          <ul>
+            <li>
+              <a href="#"> Home </a>
+            </li>
+            <li>
+              <a href="#"> Shop </a>
+            </li>
+            <li>
+              <a href="#"> Cart </a>
+            </li>
+            <li>
+              <a href="#"> Track Order </a>
+            </li>
+            <li>
+              <a href="#"> Fast Sale </a>
+            </li>
+            <li>
+              <a href="#"> Pre-Order </a>
+            </li>
+            <li>
+              <a href="#">Profile </a>
+            </li>
+            <li>
+              <a href="#"> Contact </a>
+            </li>
+          </ul>
+          <form action="#" method="POST">
+            <label htmlFor="search"> </label>
+            <input type="text" name="search" id="search" />
+            <button></button>
+          </form>
+        </nav>
+      </div>
+    );
+  }
+}
+
+export default Navbar;
