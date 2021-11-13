@@ -51,6 +51,9 @@ export class Navbar extends Component {
             <i class="fa fa-times" aria-hidden="true"></i>
           </div>
         </nav>
+        <div className="toggle">
+          <i class="fa fa-bars" aria-hidden="true"></i>
+        </div>
       </div>
     );
   }
