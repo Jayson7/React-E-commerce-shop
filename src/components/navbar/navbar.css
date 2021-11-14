@@ -119,9 +119,9 @@ li .ol li a {
   .times {
     display: flex;
     position: fixed;
-    top: 30px;
+    top: 25px;
     z-index: 10;
-    right: 20px;
+    right: 10px;
     display: flex;
     font-size: 2.5rem;
     color: #e4e4e4;
@@ -130,10 +130,10 @@ li .ol li a {
   .toggle {
     display: flex;
     position: fixed;
-    top: 30px;
+    top: 25px;
     z-index: 10;
 
-    right: 20px;
+    right: 10px;
     font-size: 2.5rem;
 
     color: #e4e4e4;
