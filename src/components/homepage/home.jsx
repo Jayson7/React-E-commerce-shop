@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./home.css";
 import "./home";
+// import textslider from "./home";
 
 export class Home extends Component {
   render() {

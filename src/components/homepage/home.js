@@ -18,3 +18,6 @@ function textslider() {
   i++;
   setTimeout("textslider()", 3000);
 }
+window.addEventListener("load", () => {
+  textslider();
+});
