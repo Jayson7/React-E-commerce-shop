@@ -1,7 +1,9 @@
 import React, { Component } from "react";
+import s1 from "./1.jpg";
 import "./home.css";
+import BackgroundSlider from "react-background-slider";
 import "./home";
-import textslider from "./home";
+// import textslider from "./home";
 
 export class Home extends Component {
   render() {
@@ -10,6 +12,8 @@ export class Home extends Component {
         <div className="home-container">
           <div className="grab">
             <div className="texthome">
+              <BackgroundSlider images={[s1]} duration={10} transition={2} />
+
               <h1 className="text1"> We sell Explicit products </h1>
               <h6>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
