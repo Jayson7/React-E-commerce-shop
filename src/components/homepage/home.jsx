@@ -1,5 +1,10 @@
 import React, { Component } from "react";
 import s1 from "./1.jpg";
+import s2 from "./2.jpg";
+import s3 from "./3.jpg";
+import s4 from "./4.jpg";
+import s5 from "./5.jpg";
+
 import "./home.css";
 import BackgroundSlider from "react-background-slider";
 import "./home";
@@ -10,10 +15,14 @@ export class Home extends Component {
     return (
       <div>
         <div className="home-container">
+          <BackgroundSlider
+            images={[s1, s2, s3, s4, s5]}
+            duration={2}
+            transition={6}
+          />
+
           <div className="grab">
             <div className="texthome">
-              <BackgroundSlider images={[s1]} duration={10} transition={2} />
-
               <h1 className="text1"> We sell Explicit products </h1>
               <h6>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
