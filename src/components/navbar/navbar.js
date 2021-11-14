@@ -3,6 +3,7 @@ import "./navbar.css";
 // import "@fortawesome/react-fontawesome";
 import "font-awesome/css/font-awesome.min.css";
 import "./navbars";
+
 export class Navbar extends Component {
   render() {
     return (

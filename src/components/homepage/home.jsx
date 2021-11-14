@@ -1,14 +1,19 @@
 import React, { Component } from "react";
 import "./home.css";
+import "./home";
+
 export class Home extends Component {
   render() {
     return (
       <div>
         <div className="home-container">
-          <div className="loader">
-            <div className="box1"></div>
-            <div className="box2"></div>
-            <div className="box3"></div>
+          <div className="grab">
+            <div className="image">
+              <img src="" className="image1" alt="" />
+            </div>
+            <div className="texthome">
+              <h1 className="text1"> W sell Explicit products </h1>
+            </div>
           </div>
         </div>
       </div>
