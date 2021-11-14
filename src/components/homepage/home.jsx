@@ -12,7 +12,7 @@ export class Home extends Component {
               <img src="" className="image1" alt="" />
             </div>
             <div className="texthome">
-              <h1 className="text1"> W sell Explicit products </h1>
+              <h1 className="text1"> We sell Explicit products </h1>
             </div>
           </div>
         </div>
