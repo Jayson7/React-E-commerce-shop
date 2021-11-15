@@ -35,8 +35,10 @@ export class Home extends Component {
                 ratione quam iusto quo repellendus adipisci excepturi.
               </p>
             </div>
-            <button>Cart</button>
-            <button>Shop</button>
+            <div className="btns">
+              <button>Cart</button>
+              <button>Shop</button>
+            </div>
           </div>
         </div>
       </div>
