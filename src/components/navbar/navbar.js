@@ -28,7 +28,7 @@ export class Navbar extends Component {
             <li>
               <a href="#">Profile </a>
             </li>
-            <li>
+            <li className="f">
               Help
               <ol className="ol">
                 <li>
