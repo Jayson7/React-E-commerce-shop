@@ -24,10 +24,10 @@ export class Home extends Component {
           <div className="grab">
             <div className="texthome">
               <h1 className="text1"> We sell Explicit products </h1>
-              <h6>
+              <h4>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
                 dolores accusantium sequi! Adipisci.
-              </h6>
+              </h4>
               <p>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 Voluptatum dolorum quos quidem officia earum eligendi! Unde
